@@ -3,4 +3,4 @@ project(Raytracing_weekend)
 
 set(CMAKE_CXX_STANDARD 23)
 
-add_executable(Raytracing_weekend src/main.cpp)
+add_executable(Raytracing_weekend src/main.cpp src/Math.cpp src/Math.h)
