@@ -38,14 +38,18 @@ void PrintImage()
 void VectorTest()
 {
 	using namespace std;
-	Vector temp;
+	Vector vec1;
+	Vector vec2(1.2f,2.0f,3.2f);
+	Vector vec3{1.2f,2.2f,3.2f};
 
-	std::vector<int> thing;
-	Vector<float, 5> temp2;
 
-	std::cout << temp.x() << endl;
-	std::cout << temp.y() << endl;
-	std::cout << temp2.w() << endl;
+	// Vector vec2 = {1,2,3};
+//	Vector vec2(1,2,3);
+
+//
+//	std::cout << temp.x() << endl;
+//	std::cout << temp.y() << endl;
+//	std::cout << temp2.w() << endl;
 
 }
 int main() {
